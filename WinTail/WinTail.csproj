@@ -55,9 +55,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TailActor.cs" />
     <Compile Include="FileObserver.cs" />
-    <Compile Include="TailCoordinatorActor\StartTail.cs" />
-    <Compile Include="ValidationActor.cs" />
+    <Compile Include="TailCoordinatorActor.cs" />
+    <Compile Include="FileValidatorActor.cs" />
     <Compile Include="ConsoleReaderActor.cs" />
     <Compile Include="ConsoleWriterActor.cs" />
     <Compile Include="Messages.cs" />
